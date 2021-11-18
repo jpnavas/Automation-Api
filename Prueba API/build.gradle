@@ -1,0 +1,37 @@
+group 'ServicioEmpleados'
+version '1.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.88")
+    }
+}
+
+ext {
+    serenityVersion = '2.0.88'
+    serenityCucumberVersion = '1.9.48'
+
+}
+
+dependencies {
+    testImplementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    testImplementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0-M1'
+    testImplementation('org.assertj:assertj-core:3.14.0')
+    testImplementation('org.slf4j:slf4j-simple:2.0.0-alpha1')
+    implementation "net.serenity-bdd:serenity-core:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-junit:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
+    implementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
+    testImplementation "net.serenity-bdd:serenity-screenplay-rest:$rootProject.ext.serenityVersion"
+}

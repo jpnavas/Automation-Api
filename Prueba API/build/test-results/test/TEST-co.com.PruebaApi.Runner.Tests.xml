@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.PruebaApi.Runner.Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-18T21:51:11" hostname="BG-D-JNAVAS01" time="4.767">
+<testsuite name="co.com.PruebaApi.Runner.Tests" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-11-19T15:36:00" hostname="BG-D-JNAVAS01" time="6.155">
   <properties/>
-  <testcase name="getInto" classname="co.com.PruebaApi.Runner.Tests" time="4.767">
+  <testcase name="getInto" classname="co.com.PruebaApi.Runner.Tests" time="6.155">
     <failure message="java.net.UnknownHostException: university.net.api" type="java.net.UnknownHostException">java.net.UnknownHostException: university.net.api
 	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
 	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)

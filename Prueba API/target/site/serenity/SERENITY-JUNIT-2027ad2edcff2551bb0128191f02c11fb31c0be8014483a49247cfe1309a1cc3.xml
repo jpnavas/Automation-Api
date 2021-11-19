@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="co.com.PruebaApi.Runner.Tests" skipped="0" tests="1" time="4.73" timestamp="2021-11-18 04:51:11"><testcase classname="co.com.PruebaApi.Runner.Tests" name="Get into"><error message="Some exception during recording fields" type="java.lang.RuntimeException">Some exception during recording fields</error><system-err>Some exception during recording fields&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="co.com.PruebaApi.Runner.Tests" skipped="0" tests="1" time="6.09" timestamp="2021-11-19 10:36:00"><testcase classname="co.com.PruebaApi.Runner.Tests" name="Get into"><error message="Some exception during recording fields" type="java.lang.RuntimeException">Some exception during recording fields</error><system-err>Some exception during recording fields&#13;
 net.serenitybdd.rest.filters.FieldsRecordingFilter.filter(FieldsRecordingFilter.java:52)&#13;
 io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)&#13;
 io.restassured.filter.log.RequestLoggingFilter.filter(RequestLoggingFilter.java:122)&#13;
